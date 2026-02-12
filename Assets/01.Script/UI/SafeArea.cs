@@ -1,0 +1,28 @@
+using DG.Tweening;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class SafeArea : MonoBehaviour
+{
+    void Start()
+    {
+        ApplySafeArea();
+    }
+
+    void ApplySafeArea()
+    {
+        Rect safeArea = Screen.safeArea;
+        RectTransform rectTransform = GetComponent<RectTransform>();
+
+        Vector2 anchorMin = safeArea.position;
+        Vector2 anchorMax = anchorMin + safeArea.size;
+
+        anchorMin.x /= Screen.width;
+        anchorMin.y /= Screen.height;
+        anchorMax.x /= Screen.width;
+        anchorMax.y /= Screen.height;
+
+        rectTransform.anchorMin = anchorMin;
+        rectTransform.anchorMax = anchorMax;
+    }
+}
