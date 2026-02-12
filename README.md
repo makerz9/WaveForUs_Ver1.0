@@ -3,9 +3,8 @@ Unity Mobile Running Game
 
 # WaveForUs
 
-<p align="center">
-  <img src="앱아이콘.png" width="200"/>
-</p>
+<img width="512" height="512" alt="GameIcon" src="https://github.com/user-attachments/assets/15d52b97-bfd3-4200-bb17-07b5e7d76bdb" />
+
 
 Unity 모바일 러닝 게임 - 파도를 타고 항해하세요!
 
@@ -17,6 +16,7 @@ Unity 모바일 러닝 게임 - 파도를 타고 항해하세요!
 - **Platform**: Android (Google Play)
 - **Release Date**: 2026년 2월
 - **Download**: [Google Play Store](https://play.google.com/store/apps/details?id=com.makerz.waveforus)
+- **PlayVideo**: https://youtu.be/fdrH8izpNYk
 
 ## 🛠 기술 스택
 - Unity 2022.x
