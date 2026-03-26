@@ -4,11 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - File
-  - Weapon
-  - PWeapon
-  - EWeapon
+  - Water
+  - Ship
+  - WaveUp
+  - Obstacle
+  - Dead
+  - ScoreUp
+  - Wall
+  - SemiWater
+  - Boom
+  - ItemBox
+  - DontCreate
   layers:
   - Default
   - TransparentFX
@@ -17,13 +23,13 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ship
+  - WaveUp
+  - Stone
+  - Obstacle
+  - ScoreUp
+  - ItemBox
+  - DontMove
   - 
   - 
   - 
