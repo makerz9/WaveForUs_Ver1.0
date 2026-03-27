@@ -1,4 +1,4 @@
-# WaveForUs_Ver1.0
+# WaveForUs_Ver1.0.5 (Official Released)
 Unity Mobile Running Game
 
 # WaveForUs
